@@ -1,0 +1,19 @@
+.parap{
+    animation-name: rer;
+    animation-duration: 1.5s;
+    width: 32px;
+    overflow: hidden;
+    border-right: 2px solid var(--color);
+    white-space: nowrap;
+    animation-timing-function: steps(30);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes rer{
+    0%{
+        width: 10ch;
+    }
+    100%{
+        width: 22ch;
+    }
+}

@@ -1,0 +1,32 @@
+:root {
+  --bgcolor1: #043504;
+  --bgcolor2: #242724;
+  --btnbg: #FEFAE0;
+  --border: 1px solid white;
+  --bgcolordiv: whitesmoke; 
+  /* color:  #'DDA153'; */
+  /* color1:'' */
+    /* --color3: #435146; */
+}
+
+
+body {
+    background: linear-gradient(to left, var(--bgcolor1), var(--bgcolor2));
+    /* background-color: #1F2A24; */
+     height: auto; 
+    margin: 0;
+    padding: 0%;
+    overflow-x:hidden;
+}
+
+
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+/* #1F2A24 */
