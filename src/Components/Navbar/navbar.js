@@ -102,7 +102,7 @@ backdropFilter:'blur(20px)',
 WebkitBackdropFilter:'blur(20px)',
 
 padding:'15px 20px',
-// borderRadius:'15px',
+borderRadius:{xs:'15px !important',sm:"15px",md:"15px",lg:'0px'},
 
 display:'flex',
 justifyContent:'space-between',
