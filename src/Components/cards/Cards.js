@@ -17,7 +17,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Cards() {
   return (
-<Box sx={{ width: {xs:'auto',sm:'auto',md:"auto",lg:'90%'},textAlign:'center',margin:'100px auto' ,alignItems:'center',justifyContent:'center',overflowX:'hidden'}}>
+<Box sx={{ width: {xs:'auto',sm:'auto',md:"auto",lg:'90%'},textAlign:'center',margin:'100px auto' ,alignItems:'center',justifyContent:'center'}}>
 <Typography className='project' sx={{color:'var(--color1)',fontSize:'35px'}}>Featured Projects </Typography>
 <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 3 }} sx={{marginTop:'100px',justifyContent:"center"}}>
 <Grid sx={{width:{xs:"90%",sm:'90%',md:"50%",lg:'510px'},height:'400px',position:'relative',cursor:'pointer',textAlign:'left'}}>

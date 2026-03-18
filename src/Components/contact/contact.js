@@ -38,19 +38,19 @@ export default function Contact(params) {
   };
  return(
     <>
-<Box sx={{width:{xs:'auto',sm:'auto',md:'auto',lg:'80%'},height:'auto',margin:'auto',marginTop:{xs:'30px !important',sm:'30px !important',md:"50px !important",lg:'70px !important'},overflowX:'hidden'}}>
+<Box sx={{width:{xs:'auto',sm:'auto',md:'auto',lg:'80%'},height:'auto',margin:'70px auto'}}>
 <Typography className='project' sx={{color:'var(--color1)',fontSize:'35px',textAlign:'center'}}>Get In Touch ☎</Typography>
-<Box sx={{width:{xs:'80% !important',sm:"80% !important",md:'90%',lg:'100%'},height:'auto',margin:'70px auto',display:'flex',flexDirection:{xs:'column !important',sm:'column !important',md:'row',lg:'row'},gap:'25px'}}>
+<Box sx={{width:{xs:'80%',sm:"80%",md:'90%',lg:'100%'},height:'auto',margin:'70px auto',display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:'row'},gap:'25px'}}>
 <Box sx={{width:{xs:'auto',sm:'auto',md:'auto',lg:'50%'},height:'auto',borderRadius:'10px',padding:'20px',display:'flex',flexDirection:"column",gap:'20px', boxShadow: '0 0 10px rgba(229, 224, 224, 0.5)'}}>
 <Typography sx={{fontSize:'35px',color:'var(--color)',fontWeight: 'bold',fontFamily: '"Bricolage Grotesque", sans-serif',fontOpticalSizing: 'auto',fontStyle: 'normal', }}>We'd Love to Hear From You</Typography> 
 <Typography sx={{color:'var(--color1)',fontSize:'20px',fontFamily:'sans-serif'}}>Weather it's feedback, ideas, or just a hello we're here 💡</Typography>
-<Box sx={{display:'flex',flexDirection:{xs:'column !important',sm:'column !important',md:'row',lg:'row'},gap:'15px',alignItems:"center",width:'auto',height:'auto'}}>
+<Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:'row'},gap:'15px',alignItems:"center",width:'auto',height:'auto'}}>
 <Box sx={{width:'40px',height:'40px',textAlign:'center',borderRadius:'100%',padding:'10px',boxShadow: ' 0 0 10px  rgba(229, 224, 224, 0.5)'}}>
 <FaEnvelope style={{color:"var(--color1)",fontSize:'30px',marginTop:'5px'}}/>
 </Box>
 <Typography sx={{fontSize:'20px',color:'var(--color)',fontFamily:'sans-serif'}}>isharaheel555@gmail.com</Typography>
 </Box>
-<Box sx={{display:'flex',flexDirection:{xs:'column !important',sm:'column !important',md:'row',lg:'row'},gap:'15px',alignItems:"center",width:'auto',height:'auto'}}>
+<Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:'row'},gap:'15px',alignItems:"center",width:'auto',height:'auto'}}>
 <Box sx={{width:'40px',height:'40px',textAlign:'center',borderRadius:'100%',padding:'10px',boxShadow: ' 0 0 10px  rgba(229, 224, 224, 0.5)'}}>
 <FaPhone style={{color:"var(--color1)",fontSize:'30px',marginTop:'5px'}}/>
 </Box>

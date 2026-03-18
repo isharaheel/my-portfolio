@@ -6,7 +6,7 @@ import { SiTicktick } from "react-icons/si";
 export default function Skill() {
   return(
 <>
-<Box sx={{width:{xs:'80% !important',sm:'80%',md:'90%',lg:'80%'},height:"auto",margin:'auto',marginTop:{xs:'50px',sm:'50px',md:"100px",lg:'150px'},overflowX:'hidden'}}>
+<Box sx={{width:{xs:'90%',sm:'90%',md:'90%',lg:'80%'},height:"auto",margin:'auto',marginTop:{xs:'50px',sm:'50px',md:"100px",lg:'150px'}}}>
  <Typography className='project' sx={{color:'var(--color1)',fontSize:'35px',textAlign:'center'}}>My Skillset</Typography>
  <Box sx={{display:'flex',flexDirection:'column',gap:'30px',marginTop:{xs:'50px',sm:'50px',md:"100px",lg:'100px'}}}>
  <Box sx={{width:'100%',height:'auto',display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:'row'},justifyContent:'space-between',gap:{xs:'30px',sm:'30px',md:'none',lg:'none'},alignItems:'center'}}>
@@ -14,7 +14,7 @@ export default function Skill() {
 {/* frontened box */}
 <Box sx={{width:{xs:'80%',sm:'80%',md:'100%',lg:'500px'},height:'auto', boxShadow: '0 0 10px rgba(229, 224, 224, 0.5)',display:'flex',borderRadius:'10px',flexDirection:'column',padding:'10px',paddingTop:'20px',paddingBottom:'20px'}}>
 <Box sx={{width:'100%',height:'40px'}}>
-    <Typography sx={{color:'var(--color)',fontSize:{xs:'18px',sm:'18px',md:"20px",lg:"23px"},textAlign:'center'}}>Frontened Development</Typography>
+    <Typography sx={{color:'var(--color)',fontSize:'23px',textAlign:'center'}}>Frontened Development</Typography>
 </Box>
 <Divider sx={{background:'var(--bgcolordiv)',marginBottom:'10px',marginTop:'5px'}}/>
 <Box sx={{width:'100%',height:'80px',display:'flex',alignItems:'center',gap:'15px',justifyContent:'center'}}>
@@ -46,7 +46,7 @@ export default function Skill() {
 
 <Box sx={{width:{xs:'80%',sm:'80%',md:'100%',lg:'500px'},height:'auto', boxShadow: '0 0 10px rgba(229, 224, 224, 0.5)', boxShadow: '0 0 10px rgba(229, 224, 224, 0.5)',display:'flex',borderRadius:'10px',flexDirection:'column',padding:'10px',paddingTop:'20px',paddingBottom:'20px'}}>
 <Box sx={{width:'100%',height:'40px'}}>
-<Typography sx={{color:'var(--color)',fontSize:{xs:'18px',sm:'18px',md:"20px",lg:"23px"},textAlign:'center'}}>Backened Development</Typography>
+<Typography sx={{color:'var(--color)',fontSize:'23px',textAlign:'center'}}>Backened Development</Typography>
 </Box>
 <Divider  sx={{background:'var(--bgcolordiv)',marginBottom:'10px',marginTop:'5px'}}/>
 <Box sx={{width:'100%',height:'80px',display:'flex',alignItems:'center',gap:'15px',justifyContent:'center'}}>
@@ -76,7 +76,7 @@ export default function Skill() {
 {/* tool and techs */}
 <Box sx={{width:{xs:'80%',sm:'80%',md:'422px',lg:'500px'},height:'100%', boxShadow: '0 0 10px rgba(229, 224, 224, 0.5)',display:'flex',borderRadius:'10px',flexDirection:'column',padding:'10px',paddingTop:'20px',paddingBottom:'20px'}}>
 <Box sx={{width:'100%',height:'40px'}}>
-<Typography sx={{color:'var(--color)',fontSize:{xs:'18px',sm:'18px',md:"20px",lg:"23px"},textAlign:'center'}}>Tools & Technologies</Typography>
+<Typography sx={{color:'var(--color)',fontSize:'23px',textAlign:'center'}}>Tools & Technologies</Typography>
 </Box>
 <Divider sx={{background:'var(--bgcolordiv)',marginBottom:'10px',marginTop:'5px'}}/>
 <Box sx={{width:{xs:'80%',sm:'80%',md:"90%",lg:'100%'},height:'80px',display:'flex',alignItems:'center',gap:'15px',justifyContent:'center'}}>
@@ -107,7 +107,7 @@ export default function Skill() {
 
 <Box sx={{width:{xs:'80%',sm:'80%',md:'800px',lg:'500px'},height:'auto', boxShadow: '0 0 10px rgba(229, 224, 224, 0.5)',display:'flex',borderRadius:'10px',flexDirection:'column',padding:'10px',paddingTop:'20px',paddingBottom:'20px',alignItems:'center',justifyContent:'center'}}>
 <Box sx={{width:'100%',height:'40px'}}>
-<Typography sx={{color:'var(--color)',fontSize:{xs:'18px',sm:'18px',md:"20px",lg:"23px"},textAlign:'center'}}>UI / Design Skills</Typography>
+<Typography sx={{color:'var(--color)',fontSize:'23px',textAlign:'center'}}>UI / Design Skills</Typography>
 </Box> 
 {/* <Divider sx={{background:'white',marginBottom:'10px',marginTop:'5px'}}/> */}
 {/* <Divider sx={{background:'var(--bgcolordiv)',marginBottom:'10px',marginTop:'5px'}}/> */}
