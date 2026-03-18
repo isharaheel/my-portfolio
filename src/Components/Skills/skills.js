@@ -80,21 +80,21 @@ export default function Skill() {
 </Box>
 <Divider sx={{background:'var(--bgcolordiv)',marginBottom:'10px',marginTop:'5px'}}/>
 <Box sx={{width:{xs:'80%',sm:'80%',md:"90%",lg:'100%'},height:'80px',display:'flex',alignItems:'center',gap:'15px',justifyContent:'center'}}>
-    <Box sx={{width:'100px',height:'65px',textAlign:'center',borderRadius:'5px', boxShadow: '-10px 0px 10px -5px rgba(229, 224, 224, 0.5)',background:'white'}}>
+    <Box sx={{width:{xs:'50%',sm:'50%',md:"100px",lg:'100px'},height:'65px',textAlign:'center',borderRadius:'5px', boxShadow: '-10px 0px 10px -5px rgba(229, 224, 224, 0.5)',background:'white'}}>
 <img src="./images/git.png" alt="nd" style={{width:'60px',marginTop:'2px'}}/>
 
     </Box>
 
-   <Box sx={{width:'100px',height:'65px',textAlign:'center',borderRadius:'5px', boxShadow: '-10px 0px 10px -5px rgba(229, 224, 224, 0.5)',background:'white'}}>
+   <Box sx={{width:{xs:'50%',sm:'50%',md:"100px",lg:'100px'},height:'65px',textAlign:'center',borderRadius:'5px', boxShadow: '-10px 0px 10px -5px rgba(229, 224, 224, 0.5)',background:'white'}}>
 <img src="./images/github.png" alt="nd" style={{width:'90px',height:'50px',marginTop:'6px'}}/>
 
     </Box>
-     <Box sx={{width:'100px',height:'65px',textAlign:'center',borderRadius:'5px', boxShadow: '-10px 0px 10px -5px rgba(229, 224, 224, 0.5)',background:'white'}}>
+     <Box sx={{width:{xs:'50%',sm:'50%',md:"100px",lg:'100px'},height:'65px',textAlign:'center',borderRadius:'5px', boxShadow: '-10px 0px 10px -5px rgba(229, 224, 224, 0.5)',background:'white'}}>
 <img src="./images/figma.png" alt="nd" style={{width:'100px',height:'50px',marginTop:'6px'}}/>
 
     </Box>
 
-     <Box sx={{width:'100px',height:'65px',textAlign:'center',borderRadius:'5px', boxShadow: '-10px 0px 10px -5px rgba(229, 224, 224, 0.5)',background:'white'}}>
+     <Box sx={{width:{xs:'50%',sm:'50%',md:"100px",lg:'100px'},height:'65px',textAlign:'center',borderRadius:'5px', boxShadow: '-10px 0px 10px -5px rgba(229, 224, 224, 0.5)',background:'white'}}>
 <img src="./images/vscode.jpg" alt="nd" style={{width:'60px',height:'50px',marginTop:'6px'}}/>
 
     </Box>
