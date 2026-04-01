@@ -72,7 +72,7 @@ export default function Skill() {
 
 {/* tools */}
 
-<Box sx={{width:'auto',height:'auto',display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:'row'},justifyContent:'space-between',gap:{xs:'30px',sm:'30px',md:'none',lg:'none'},alignItems:{xs:'center',sm:'center',md:'left',lg:'left'}}}>
+<Box sx={{width:'auto',height:'auto',display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:'row'},justifyContent:'space-between',gap:{xs:'30px',sm:'30px',md:'none',lg:'none'},alignItems:{xs:'center',sm:'center',md:'center',lg:"flex-start"}}}>
 {/* tool and techs */}
 <Box sx={{width:{xs:'80%',sm:'80%',md:'422px',lg:'500px'},height:'100%', boxShadow: '0 0 10px rgba(229, 224, 224, 0.5)',display:'flex',borderRadius:'10px',flexDirection:'column',padding:'10px',paddingTop:'20px',paddingBottom:'20px'}}>
 <Box sx={{width:'100%',height:'40px'}}>
@@ -81,7 +81,8 @@ export default function Skill() {
 <Divider sx={{background:'var(--bgcolordiv)',marginBottom:'10px',marginTop:'5px'}}/>
 <Box sx={{width:{xs:'80%',sm:'80%',md:"90%",lg:'100%'},height:'80px',display:'flex',alignItems:'center',gap:'15px',justifyContent:'center'}}>
     <Box sx={{width:{xs:'50%',sm:'50%',md:"100px",lg:'100px'},height:'65px',textAlign:'center',borderRadius:'5px', boxShadow: '-10px 0px 10px -5px rgba(229, 224, 224, 0.5)',background:'white'}}>
-<img src="./images/git.png" alt="nd" style={{width:'60px',marginTop:'2px'}}/>
+        <Box component='img' src="./images/git.png" sx={{width:{xs:'auto',sm:'auto',md:'50px',lg:'60px'},marginTop:'2px'}}></Box>
+{/* <img src="" alt="nd" style={{width:'60px',marginTop:'2px'}}/> */}
 
     </Box>
 
