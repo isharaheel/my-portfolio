@@ -10,20 +10,40 @@ const projects = [
   {
     title: "Sticky Notes Workspace",
     description: "A lightweight digital memo tool for organizing quick thoughts and tasks, featuring local data persistence.",
-    image: "/images/card1.jpg",
+    image: "./images/stick.jpg",
     link: "https://isharaheel.github.io/sticky-notes-app/"
   },
   {
     title: "Weather Forecast Dashboard",
     description: "A real-time weather tracking application that provides accurate local forecasts and atmospheric data using a global weather API.",
-    image: "./images/card2.jpg",
+    image: "./images/weather.jpg",
     link: "https://isharaheel.github.io/weather-forecast-app/"
   },
   {
     title: "Recipe Discovery Engine",
     description: "An interactive culinary search tool designed to browse thousands of recipes with filtered results for ingredients and dietary preferences.",
-    image: "./images/card3.jpg",
+    image: "./images/food.jpg",
     link: "https://isharaheel.github.io/recipe-discovery-engine/"
+  },
+   {
+    title: "AppVilla Template",
+    description: "A modern, responsive Landing Page template for Mobile Apps. Built with React.js and Styled Components, featuring smooth animations and a clean UI.",
+    image: "./images/ap.jpg",
+    link: "https://isharaheel.github.io/appvilla-template/"
+  }
+  ,
+   {
+    title: "Smart AI Toolset",
+    description: "A minimalist, high-speed AI utility suite built with React and Vite, featuring a sleek dark-mode design and optimized performance.",
+    image: "./images/aii.png",
+    link: "https://isharaheel.github.io/smart-ai-toolset/"
+  }
+  ,
+   {
+    title: "Berry Core",
+    description: "A professional-grade admin interface built with React and Material UI (MUI). This project features a modular architecture, interactive data analytics, and a fully responsive, structured layout designed for seamless enterprise data management.",
+    image: "./images/bery.jpg",
+    link: "https://react-berry-dashboard-omega.vercel.app/"
   }
 ];
 

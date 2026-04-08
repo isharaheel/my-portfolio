@@ -7,7 +7,7 @@ export default function About(params) {
         <>
 <Box sx={{width:{xs:'auto',sm:'80%',md:'80%',lg:'80%'},height:"auto",margin:"250px auto"}}>
  <Box sx={{width:'100%',height:'auto',display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:"row"},alignItems:'center',justifyContent:'space-between',gap:{xs:'30px',sm:"30px",md:"30px",lg:'0px'}}}>
-    <Box component='img' src="./images/avatar.png" alt="user" sx={{width:{xs:'90%',sm:'90%',md:'40%',lg:'40%'},height:'600px',marginBottom:'30px',borderRadius:'30%',transitionDuration:'0.5s', '&:hover': {
+    <Box component='img' src="./images/women.jpg" alt="user" sx={{width:{xs:'90%',sm:'90%',md:'40%',lg:'40%'},height:'600px',marginBottom:'30px',borderRadius:'30%',transitionDuration:'0.5s', '&:hover': {
       borderRadius: '30px'
     }}}>
 
