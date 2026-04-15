@@ -44,6 +44,26 @@ const projects = [
     description: "A professional-grade admin interface built with React and Material UI (MUI). This project features a modular architecture, interactive data analytics, and a fully responsive, structured layout designed for seamless enterprise data management.",
     image: "./images/bery.jpg",
     link: "https://react-berry-dashboard-omega.vercel.app/"
+  },
+     {
+    title: "YouTube-Clone",
+    description: "A high-fidelity, responsive video streaming application built with React, focusing on optimized state management and seamless user experience.",
+    image: "./images/you.jpg",
+    link: "https://isharaheel-youtube-clone.vercel.app/"
+  }
+  ,
+  {
+    title: "Todo-List-App",
+    description: "A professional To-Do List application built with React.js. Using Hooks for efficient state management, it features a clean UI to seamlessly add, edit, and organize daily tasks.",
+    image: "./images/to.jpg",
+    link: "https://isha-todo-list-app.vercel.app/"
+  }
+   ,
+  {
+    title: "Porto Modern E-commerce Store",
+    description: "A fully responsive e-commerce storefront developed in React.js, featuring dynamic product interactions, a modern slide-in cart, and a pixel-perfect design across all devices.",
+    image: "./images/por.jpg",
+    link: "https://porto-ecommerce-store.vercel.app/"
   }
 ];
 
