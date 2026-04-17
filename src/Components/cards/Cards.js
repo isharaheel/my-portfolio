@@ -65,6 +65,20 @@ const projects = [
     image: "./images/por.jpg",
     link: "https://porto-ecommerce-store.vercel.app/"
   }
+    ,
+  {
+    title: "Minimal Calculator",
+    description: "A minimalist web-based calculator providing a distraction-free user experience. Features a sleek design and optimized performance using Vanilla JavaScript.",
+    image: "./images/calc.jpg",
+    link: "https://minimal-calculator-blue.vercel.app/"
+  }
+    ,
+  {
+    title: "IT Book Store – A Modern Tech Library Explorer",
+    description: "A sleek IT Book Store built with React.js and Hooks. Features real-time API integration, dynamic search functionality, and a mobile-first responsive design.",
+    image: "./images/bok.jpg",
+    link: "https://it-book-store-mu.vercel.app/"
+  }
 ];
 
 export default function Cards() {
