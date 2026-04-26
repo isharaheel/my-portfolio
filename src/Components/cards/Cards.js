@@ -79,6 +79,13 @@ const projects = [
     image: "./images/bok.jpg",
     link: "https://it-book-store-mu.vercel.app/"
   }
+   ,
+  {
+    title: "CineVerse | Global State-Driven Movie Explorer",
+    description: "A dynamic media discovery application built with React and the TMDB API. I implemented the useContext API to manage global state across the app, ensuring seamless data flow for user watchlists and theme toggling without unnecessary re-renders.",
+    image: "./images/images.jpg",
+    link: "https://cine-verse-movie-website.vercel.app/"
+  }
 ];
 
 export default function Cards() {
@@ -120,7 +127,7 @@ export default function Cards() {
                 borderRadius: '10px',
                 transition: '0.5s',
                 border: '1px solid lightgrey',
-                objectFit: 'cover',
+                objectFit: 'fit',
                 '&:hover': { borderRadius: '30px' }
               }}
             />
